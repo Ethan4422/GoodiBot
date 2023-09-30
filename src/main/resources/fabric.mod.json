@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "externalcontrol",
+  "version": "${version}",
+  "name": "externalControl",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/etan4/externalControl"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/externalcontrol/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.goodi.externalcontrol.client.ExternalControlClient"
+    ],
+    "main": [
+      "me.goodi.externalcontrol.ExternalControl"
+    ]
+  },
+  "mixins": [
+    "externalcontrol.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
