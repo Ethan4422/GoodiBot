@@ -23,7 +23,7 @@ import java.util.function.Consumer;
 
 public class ExternalControl implements ModInitializer {
 
-    public final String TOKEN = "MTE1NjQwNzUwNDY0MTcyNDUzMA.GzDE6R.c1aCteYX9VfGH_1mOf33DKhRaLLbQBdQRbTBTk";
+    public final String TOKEN = "MTE1NjQwNzUwNDY0MTcyNDUzMA.GzDE6R.c1aCteYX9VfGH_1mOf33DKhRaLLbQBdQRbTBTk"; //old token I am dumb lol.
     public static MinecraftClient client = MinecraftClient.getInstance();
     public static final Logger LOGGER = LogManager.getLogger("goodi");
 
